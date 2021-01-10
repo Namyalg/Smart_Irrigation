@@ -1,5 +1,12 @@
 var firebaseConfig = {
-    "database details"
+    apiKey: "AIzaSyAckAS7Fn858QdmoR08eQZXM9W3ePeFDPQ",
+    authDomain: "gocorona-84a11.firebaseapp.com",
+    databaseURL: "https://gocorona-84a11.firebaseio.com",
+    projectId: "gocorona-84a11",
+    storageBucket: "gocorona-84a11.appspot.com",
+    messagingSenderId: "416138584360",
+    appId: "1:416138584360:web:cc37c4820a4c012fca301d",
+    measurementId: "G-B9X15C5R6P"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
