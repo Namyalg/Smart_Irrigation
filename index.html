@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+        <script src="sensor.js"></script>
+    <style>
+        table, td {
+  border: 1px solid black;
+	padding : 5px;
+    margin: 5px;
+}
+    </style>
+    </head>
+    <body>
+      <!--<div id="tester" style="width:600px;height:250px;"></div>
+       <table id="myTable">
+            <tr>
+                <td>Reading</td>
+              </tr>
+        </table>
+       <script>
+       function myFunction() {
+        ques.remove();
+        //console.log("deleting");
+        location.reload();
+      }
+      TESTER = document.getElementById('tester');
+
+Plotly.plot( TESTER, [{
+    x: [1, 2, 3, 4, 5],
+    y: [1, 2, 4, 8, 16] }], { 
+    margin: { t: 0 } }, {showSendToCloud:true} );
+
+/* Current Plotly.js version */
+console.log( Plotly.BUILD );
+</script>
+        <button id="clear" onclick="myFunction()">Clear Database</button> -->
+      
+      <div id="chart"></div>
+         <table id="myTable">
+            <tr>
+                <td>Reading</td>
+              </tr>
+        </table>
+    </body>
+</html>
