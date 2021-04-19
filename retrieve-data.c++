@@ -38,8 +38,8 @@ void setup() {
 }  
 
 void loop() {  
-  int x = 15000;
-  while(x--);
+
+
   int moisture = Firebase.getInt("/number");
   if(Firebase.failed()){
     Serial.println(Firebase.error());
